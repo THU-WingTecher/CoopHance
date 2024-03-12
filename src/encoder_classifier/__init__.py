@@ -1,0 +1,2 @@
+from encoder_classifier.encoder_abstract import EncoderClassifier_abstract
+from encoder_classifier.encoder_classifier_concat import EncoderClassifier

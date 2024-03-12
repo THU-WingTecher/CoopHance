@@ -1,0 +1,21 @@
+{
+  "data_path": "",
+  "save_dir": "../model/cifar",
+  "adversarial_dir": "../adversarial/cifar",
+  "model_prefix": "cifar",
+  "attack_rate": 0.04,
+  "attack_rate_test": 0.2,
+  "adversarial_type": "pgd",
+  "train_epoch": 200,
+  "train_epoch_autoencoder": 200,
+  "batch_size": 128,
+  "train_image_size": 32,
+  "model_path": "../model/cifar/cifar_20210730.135622.pkl",
+  "autoencoder_path": "../model/cifar/autoencoder_unet_sta_cifar__20210520.133141.pkl",
+  "encoder_classifier_path": "../model/cifar/encoder_concat_noise_cifar_20201204.103231.pkl",
+  "classes_num": 10,
+  "statistic_file": "../json/cifar_statistic.json",
+  "saved_neural": "../activations/cifar/cifar_neurals-20210224.173152.npy",
+  "log_dir": "../logs",
+  "num_gpu": 1
+}

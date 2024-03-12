@@ -1,0 +1,22 @@
+{
+  "data_path": "../data/svhn",
+  "save_dir": "../model/svhn",
+  "adversarial_dir": "../adversarial/svhn",
+  "model_prefix": "svhn",
+  "attack_rate": 0.027301145,
+  "attack_rate_test": 0.0768284,
+  "adversarial_type": "pgd",
+  "train_epoch": 200,
+  "train_epoch_autoencoder": 200,
+  "batch_size": 128,
+  "train_image_size": 32,
+  "model_path": "../model/svhn/svhn_res_20210809.033511.pkl",
+  "autoencoder_path": "../model/svhn/autoencoder_unet_sta_shvn_202100730.201048.pkl",
+  "noise_autoencoder_weights": "../model/svhn/autoencoder_unet_sta_svhn_res_middle_20210730.164213.h5",
+  "encoder_classifier_path": "../model/svhn/.pkl",
+  "classes_num": 10,
+  "statistic_file": "../json/svhn_statistic.json",
+  "saved_neural": "../activations/svhn/neruals_au.npy",
+  "log_dir": "../logs",
+  "num_gpu": 1
+}
